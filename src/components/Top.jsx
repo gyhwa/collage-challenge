@@ -21,7 +21,7 @@ export default function Top() {
             /> to see an example. Share your collages with #pexcollagechallenge and remember to credit the photographers.
           </p>
           <h3> How This Site Works: </h3>
-          <p> In the below section, click Refresh to get a new set of images. Click the <FontAwesomeIcon icon={faLock} size="1x" /> / <FontAwesomeIcon icon={faLockOpen} size="1x" /> below to toggle locking the Refresh. Remember to give the photographers credit! </p>
+          <p> In the below section, click Refresh to get a new set of images. Click the <FontAwesomeIcon icon={faLock} size="1x" /> / <FontAwesomeIcon icon={faLockOpen} size="1x" /> below to toggle locking an image from Refresh. Remember to give the photographers credit! You can click "Copy Photo Credit" and you'll automatically copy the all the photographers' names. </p>
           <p> Photos provided by <a href="https://www.pexels.com/">Pexels</a>. </p>
         </Col>
       </Row>
