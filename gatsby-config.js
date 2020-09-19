@@ -16,6 +16,16 @@ module.exports = {
       options: {
         offset: -100
       }
+    },
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: process.env.GA_TRACKING_ID,
+        head: false,
+        includeInDevelopment: false,
+        defaultDataLayer: { platform: "gatsby" },
+
+      },
     }
   ],
 }

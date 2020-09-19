@@ -21,6 +21,7 @@
     "dotenv": "^8.2.0",
     "gatsby": "^2.24.61",
     "gatsby-plugin-anchor-links": "^1.1.1",
+    "gatsby-plugin-google-tagmanager": "^2.3.12",
     "react": "^16.12.0",
     "react-bootstrap": "^1.3.0",
     "react-copy-to-clipboard": "^5.0.2",
