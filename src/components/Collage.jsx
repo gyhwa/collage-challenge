@@ -14,7 +14,7 @@ export default function CollageImage() {
   const [locks, setLock] = useState([false, false, false, false]);
 
   function handleRefresh () {
-    const rand = Math.floor(Math.random() * 100);
+    const rand = Math.floor(Math.random() * 80);
 
     const fullQuery =
       "https://api.pexels.com/v1/curated?per_page=" + count + "&page=" + rand;
@@ -65,7 +65,7 @@ export default function CollageImage() {
     <Container fluid className="wrap-light">
       <Row className="pad">
         <Col md="auto">
-          <Button variant="dark" onClick={handleRefresh}> Refresh </Button>
+          <Button id="refresh" variant="dark" onClick={handleRefresh}> Refresh </Button>
         </Col>
         <Col xs md="auto">
           <CopyToClipboard text={source}>
